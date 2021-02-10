@@ -22,7 +22,7 @@
 ; Segment
 (define (make-segment . points)
   (if
-    (ormap (lambda (e) (not (is-point? e))) points) (error 'Error "[Hint] Only _point_ could be the element of segment.")
+    (ormap (lambda (e) (not (is-point? e))) points) (error 'Error "Only point could form the segment.")
     points))
 
 (define (start-segment segment) (car segment))
