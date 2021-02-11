@@ -1,7 +1,5 @@
 #lang racket
 
-(require rackunit)
-
 (define (cons x y)
   (lambda (m) (m x y)))
 
