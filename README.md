@@ -1,3 +1,2 @@
-# SICP practice
+# SICP
 
-###  Use racket to do the excerise
